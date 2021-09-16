@@ -27,6 +27,5 @@ pub fn warn(message: &str) -> String {
 
 }
 pub fn error(message: &str) -> String {
-    log(LogLevel::Error, message) 
-
+    log(LogLevel::Error, message)
 }
